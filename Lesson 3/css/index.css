@@ -1,0 +1,20 @@
+@import url(./cdn.css);
+@import url(./header.css);
+@import url(./benefits.css);
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+html {
+  font-family: 'Raleway', 'Open Sans', sans-serif;
+}
+.container {
+padding: 0px 15px;
+max-width: 1170px;
+margin: auto;
+}
+section {
+  margin-bottom: 100px;
+}

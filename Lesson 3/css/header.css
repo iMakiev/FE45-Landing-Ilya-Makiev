@@ -1,0 +1,35 @@
+.header {
+  padding: 10px 0px;
+  margin-bottom: 68px;
+}
+
+.header-wrap {
+  align-items: center;
+}
+.title {
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  line-height: 42px;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 34px;
+  color: #212121;
+}
+
+.line {
+  width: 64px;
+  height: 2px;
+  background-color: #E72424;
+  margin: 0px auto 34px;
+  
+}
+.text {
+  max-width: 363px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878B;
+  font-weight: 300;
+  margin: auto
+}
