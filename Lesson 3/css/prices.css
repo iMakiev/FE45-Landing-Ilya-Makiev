@@ -1,0 +1,55 @@
+.pricelist {
+  background-color: #F5F5F5;
+  padding-bottom: 59px;
+}
+.prices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.price-card {
+  font-family: 'Open Sans';
+}
+.tariff {
+  background-color: #333333;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  width: 340px;
+  text-align: center;
+  margin-bottom: 2px;
+
+}
+.price {
+  background-color: #333333;
+  color: #fff;
+  font-size: 35px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  line-height: 100px;
+  text-align: center;
+  width: 340px;
+  margin-bottom: 2px;
+}
+.info {
+  background-color: #333333;
+  color: #FFFFFF80;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+  width: 340px;
+  margin-bottom: 2px;
+}
+.memory {
+  background-color: #fff;
+  color: #86878B;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  width: 340px;
+  margin-bottom: 2px;
+}

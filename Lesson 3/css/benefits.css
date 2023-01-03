@@ -5,13 +5,12 @@
 }
 
 .benefits-card {
-  width: 350px;
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .card-content {
-  padding-left: 40px;
+  width: 350px;
 }
 .card-content-img {
   display: flex;

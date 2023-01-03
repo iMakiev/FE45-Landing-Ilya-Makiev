@@ -1,6 +1,7 @@
-@import url(./cdn.css);
-@import url(./header.css);
-@import url(./benefits.css);
+@import url('./cdn.css');
+@import url('./title.css');
+@import url('./benefits.css');
+@import url('./prices.css');
 * {
 margin: 0;
 padding: 0;
