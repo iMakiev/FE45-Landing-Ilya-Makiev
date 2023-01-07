@@ -1,0 +1,64 @@
+.feedback-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+.feedback-cards-content {
+  width: 298px;
+  display: flex;
+  flex-direction: column;
+}
+.feedback-cards-content-text {
+  font-size: 14px;
+  padding: 9px 22px 6px 23px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #86878B;
+  background-color: #E2E2E2;
+  line-height: 19px;
+  text-align: center;
+  align-items: baseline;
+  border-radius: 7px;
+  flex-grow: 1;
+  
+
+}
+.feedback-cards-content-triangle{
+  width: 0px;
+  height: 0px;
+  border-top: 20px solid #E2E2E2;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  margin-bottom: 7.86px;
+  position: relative;
+  left: 40.86px;
+}
+.feedback-cards-content-description {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.feedback-cards-content-description-image {
+  
+}
+.feedback-cards-content-description-comment {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+.feedback-cards-content-description-comment-name {
+color: #333333;
+font-size: 20px;
+line-height: 27px;
+font-family: 'Open Sans';
+font-weight: 700;
+
+
+}
+.feedback-cards-content-description-comment-status {
+color: #86878B;
+font-size: 14px;
+font-family: 'Open Sans';
+font-weight: 400;
+}

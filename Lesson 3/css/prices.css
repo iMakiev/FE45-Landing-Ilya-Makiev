@@ -6,10 +6,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .price-card {
   font-family: 'Open Sans';
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .tariff {
   background-color: #333333;
@@ -52,4 +56,7 @@
   text-align: center;
   width: 340px;
   margin-bottom: 2px;
+}
+.memory:last-child {
+margin-bottom: 0;
 }
