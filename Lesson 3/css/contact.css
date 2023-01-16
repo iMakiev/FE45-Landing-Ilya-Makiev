@@ -1,0 +1,79 @@
+.contactUs {
+}
+.contact-form {
+}
+.contact-form-wrap {
+  
+}
+.contact-form-wrap-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+}
+.wrap-items-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 65px;
+  
+}
+.item-input{
+  width:478px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.itemName{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.itemMail{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.itemPassword{
+  display: flex;
+  flex-direction: column;
+}
+.item-textArea{
+  display: flex;
+  flex-direction: column;
+}
+.labelArea{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #BDBDBD;
+  cursor: pointer;
+}
+.textArea {
+  width:478px;
+  height:200px;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  resize: vertical;
+}
+.item-button{
+  display: flex;
+  align-items: flex-end;
+  justify-content:center;
+  padding: 40px 0;
+}
+.contact-button {
+width: 166px;
+height: 42px;
+border: none;
+text-transform: capitalize;
+background-color: #EC7979;
+color: #fff;
+cursor: pointer;
+transition: 0.2s;
+}
+.contact-button:hover{
+transform: scale(1.05);
+
+}

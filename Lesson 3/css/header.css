@@ -1,0 +1,66 @@
+.header{
+  background-color: #000000;
+  position: sticky;
+  top:0;
+  z-index:999;
+  padding:20px 0;
+
+  
+}
+.header-wrap {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -15px;
+}
+.header-wrap-logo {
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 35px;
+  font-size: 30px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  margin: 0 15px;
+  
+}
+.header-wrap-logo::after{
+  content:'it';
+  text-transform: uppercase;
+  color: #EC7979;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Raleway';
+  line-height: 35px;
+}
+.header-wrap-nav {
+  
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.navigation-button {
+  margin-left: 48px;
+  align-items: center;
+}
+.navigation-button a{
+  color: rgba(255,255,255,0.7);
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  border-bottom: 2px solid transparent;
+ 
+}
+.navigation-button:hover{
+  transform: scale(1.1);
+  
+}
+.navigation-button a:hover{
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
