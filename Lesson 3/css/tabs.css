@@ -1,0 +1,127 @@
+.tabs {
+  padding: 50px 0;
+}
+.container {
+}
+.tabs-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.tabs-wrap-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.tabThree {
+  width:112px;
+  line-height: 112px;
+  text-transform: uppercase;
+  border:none;
+  background-color: #EC7979;
+  font-size: 15px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.tabThree:hover{
+  transform: scale(1.05);
+}
+.tabTwo {
+  width:112px;
+  line-height: 112px;
+  text-transform: uppercase;
+  border:none;
+  background-color: #333333;
+  font-size: 15px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.tabTwo:hover{
+  transform: scale(1.05);
+}
+.tabOne {
+  width:112px;
+  line-height: 112px;
+  text-transform: uppercase;
+  border:none;
+  background-color: #333333;
+  font-size: 15px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.tabOne:hover{
+  transform: scale(1.05);
+}
+.tabs-wrap-main {
+  width:572px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.tabs-wrap-main h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: 'Open Sans';
+  color: black;
+}
+.tabs-wrap-main-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tabs-wrap-main-text p{
+  text-transform: uppercase;
+  color: #86878B;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.tabs-wrap-main-text p:nth-child(n){
+margin-bottom: 30px;
+}
+.tabs-wrap-main-text p:last-child{
+  margin-bottom: 0;
+}
+.tabs-wrap-main-button {
+  width: 135px;
+  line-height: 42px;
+  border: none;
+  background-color: #EC7979;
+  text-align: center;
+  transition: 0.2s;
+}
+.tabs-wrap-main-button:hover{
+transform: scale(1.05);
+}
+.tabs-wrap-main-button a{
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  padding:11px 30px;
+  line-height: 20px;
+}
+.tabs-wrap-img {
+}
+.tabs-wrap-img-pic {
+}

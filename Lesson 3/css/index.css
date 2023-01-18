@@ -9,6 +9,7 @@
 @import url('./footer.css');
 @import url('./modern.css');
 @import url('./contact.css');
+@import url('./tabs.css');
 
 * {
 margin: 0;
