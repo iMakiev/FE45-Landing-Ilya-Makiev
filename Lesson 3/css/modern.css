@@ -2,6 +2,7 @@
   background-image: url('../img/background-1\ 1.png');
   position: relative;
   padding: 98px 0 101px;
+  height: calc(100vh-10px);
 }
 .modern::after{
 content:'';

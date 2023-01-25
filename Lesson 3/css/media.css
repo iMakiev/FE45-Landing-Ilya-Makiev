@@ -1,0 +1,134 @@
+@media (max-width: 1200px){
+   /* social */
+  .social-container{
+    display:block;
+  }
+  .social-text-title{
+    text-align: center;
+  }
+  .social-text-subtitle{
+    margin:0px auto 20px;
+    text-align: center;
+  }
+  .social-images-links{
+    margin: auto;
+  }
+    /* modern */
+    .modern-wrap{
+      justify-content: space-around;
+    }
+    /* feedback */
+    .feedback-cards{
+      justify-content: space-around;
+    }
+    /* contactUs */
+    .wrap-items-info{
+      justify-content: space-around;
+    }
+}
+@media (max-width: 992px){
+    /* tabs */
+    .tabs-wrap{
+      display:block;
+    }
+    .tabs-wrap-icons{
+      flex-direction: row-reverse;
+      justify-content: center;
+    }
+    .tabOne{
+      width: 80px;
+      line-height: 80px;
+      margin: 0 10px;
+    }
+    .tabTwo{
+      width: 80px;
+      line-height: 80px;
+      margin: 0 10px;
+    }
+    .tabThree{
+      width: 80px;
+      line-height: 80px;
+      margin: 0 10px;
+    }
+    .tabs-wrap-main{
+      margin: 20px auto;
+    }
+    .tabs-wrap-main h2{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .tabs-wrap-main-text{
+      margin-bottom: 20px;
+    }
+    .tabs-wrap-main-text p{
+      text-align: center;
+    }
+    .tabs-wrap-main-button{
+      margin: auto;
+    }
+    .tabs-wrap-img-pic{
+      text-align: center;
+    }
+
+    /* benefits */
+    .card-content{
+      margin-bottom: 20px;
+    }
+    /*   prices */
+    .price-card{
+      margin-bottom: 20px;
+    }
+    .price-card:last-child{
+      margin-bottom: 0;
+    }
+  /* feedback */
+  .feedback-cards-content{
+    margin-bottom: 20px;
+  }
+  .feedback-cards-content:last-child{
+    margin-bottom: 0;
+  }
+  /* modern */
+  .modern-wrap-content{
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px){
+/*haeder*/
+  .fa-bars{
+  display:block;
+  font-size: 25px;
+  margin: 0 20px;
+  transition: 0.2s;
+}
+.fa-bars:hover{
+  transform: scale(1.05);
+}
+.header-wrap-nav{
+  display: none;
+}
+/* modern */
+.form{
+  width:300px;
+}
+.modern-wrap-logo{
+  text-align: center;
+}
+.modern-wrap-content h1{
+  text-align: center;
+  
+}
+.modern-wrap-content h1:after{
+  margin: 0 auto 20px;
+}
+.modern-wrap-subtitle{
+  margin:20px auto;
+  text-align: center;
+}
+.modern-wrap-logo-button a{
+  margin: 0 auto 20px;
+}
+
+
+}

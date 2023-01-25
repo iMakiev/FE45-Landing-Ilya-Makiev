@@ -7,8 +7,12 @@
 
   
 }
+.fa-bars{
+  color: #fff;
+  display:none;
+  order:1;
+}
 .header-wrap {
-  flex-wrap: nowrap;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +26,6 @@
   font-family: 'Raleway';
   font-weight: 400;
   margin: 0 15px;
-  
 }
 .header-wrap-logo::after{
   content:'it';
@@ -34,6 +37,8 @@
   line-height: 35px;
 }
 .header-wrap-nav {
+  margin: 0 15px;
+  order:2;
   
 }
 .navigation {
