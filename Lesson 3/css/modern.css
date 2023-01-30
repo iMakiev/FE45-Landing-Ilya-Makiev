@@ -31,7 +31,7 @@ content:'';
 }
 .modern-wrap-logo {
 }
-.modern-wrap-logo p{
+.modern-wrap-logo {
   text-transform: uppercase;
   color: #fff;
   line-height: 70px;
@@ -40,7 +40,7 @@ content:'';
   font-weight: 400;
   margin-bottom: 42px;
 }
-.modern-wrap-logo p:after{
+.modern-wrap-logo span:after{
   content:'it';
   text-transform: uppercase;
   color: #EC7979;
@@ -162,11 +162,12 @@ content:'';
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding:10px 60px;
 }
 .inputName {
   display: flex;
   flex-direction: column;
-  padding: 10px 60px;
+  margin-bottom: 10px;
 }
 .labelName{
   font-family: 'Open Sans';
@@ -183,7 +184,7 @@ content:'';
 .inputMail {
   display: flex;
   flex-direction: column;
-  padding: 10px 60px;
+  margin-bottom: 10px;
 }
 .labelMail{
   font-family: 'Open Sans';
@@ -200,7 +201,7 @@ content:'';
 .inputPassword {
   display: flex;
   flex-direction: column;
-  padding: 10px 60px;
+  
 }
 .labelPassword{
   font-family: 'Open Sans';
